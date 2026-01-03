@@ -15,7 +15,9 @@ func main(){
 		if error != nil {
 			fmt.Println("Error reported")
 		}
-
+		if command == "exit\n" {
+			break
+		}
 		fmt.Println(command[:len(command)-1] + ": command not found")
 	}
 }
