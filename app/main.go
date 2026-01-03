@@ -16,6 +16,6 @@ func main(){
 			fmt.Println("Error reported")
 		}
 
-		fmt.Println(command[:len(command)-1] + ": invalid command")
+		fmt.Println(command[:len(command)-1] + ": command not found")
 	}
 }
